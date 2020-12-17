@@ -1,5 +1,4 @@
-<img align="center" alt="banner" src="https://github.com/Virag007/JWTRipper/blob/main/media/banner.png" />
-<br />
+<p align="center"><img alt="banner" src="https://github.com/Virag007/JWTRipper/blob/main/media/banner.png" /></p>
 <br />
 
 # JWTRipper
