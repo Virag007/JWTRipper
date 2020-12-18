@@ -7,7 +7,7 @@
 [![Contributions](https://img.shields.io/badge/Contributions-Welcome-4DFF4D)](https://github.com/Virag007/JWTRipper/issues)
 [![Pull Request](https://img.shields.io/badge/PRs-Welcome-ff471a)](https://github.com/Virag007/JWTRipper/pulls)
 [![MIT license](https://img.shields.io/badge/Licence-MIT-ff3399)](https://github.com/Virag007/JWTRipper/blob/main/LICENSE)
-![LinesOfCode](https://img.shields.io/badge/Lines%20%20of%20Code%20[LOC]-100%2B-%233390ff)
+![LinesOfCode](https://img.shields.io/badge/Lines%20%20of%20Code%20[LOC]-200%2B-%233390ff)
 
 A command line tool for encoding, decoding and brute-forcing JSON Web Token(JWT). Learn more about <a href="https://jwt.io/introduction/">JWT</a>
 
@@ -56,6 +56,7 @@ optional arguments:
 
 
 **Step-04:** ```python3 JWTRipper```
+<br />
 It is a menu driven program in which you are given three menus and depending upon the requirement you may select either of them. First will encode a JWT Token for you, second will decode header and payload fields of JWT Token for you and last will brute-force the secret key of JWT Token. (Note: For brute-forcing you must provide a wordlist file.)
 
 
