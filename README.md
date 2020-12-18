@@ -68,7 +68,7 @@ It is a menu driven program in which you are given three menus and depending upo
 2. Decode the JWT Token
 3. Brute-force the secret key
 4. Cross-platform support (Linux and Windows till)
-5. Algorithm tested (HS256)
+5. Algorithm tested and support(HS256, HS384, HS512)
 
 <br />
 
