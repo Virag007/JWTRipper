@@ -66,9 +66,10 @@ It is a menu driven program in which you are given three menus and depending upo
 
 1. Encode the JWT Token
 2. Decode the JWT Token
-3. Brute-force the secret key
-4. Cross-platform support (Linux and Windows till)
+3. Brute-force the JWT Token secret key
+4. Added cross-platform support (Linux and Windows till)
 5. Algorithm tested and support(HS256, HS384, HS512)
+6. Added support one-liner command for decoding and brute-forcing JWT Token.
 
 <br />
 
