@@ -11,6 +11,10 @@
 
 A command line tool for encoding, decoding and brute-forcing JSON Web Token(JWT). Learn more about <a href="https://jwt.io/introduction/">JWT</a>
 
+## Demo
+
+<p align="center"><img alt="Demo" src="https://github.com/Virag007/JWTRipper/blob/main/media/demo.gif" /></p>
+
 ## Platform Supported
 
 <img align="left" alt="Linux" width="64px" height="64px" src="https://github.com/Virag007/Performance-Enhancer/blob/main/media/linux.png" />
