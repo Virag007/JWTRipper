@@ -84,6 +84,7 @@ def decode(token):
 def brute_force():
 	jwt_token = input('Enter the JWT Token: ')
 	jwt_data = decode(jwt_token)
+	flag = False
 	
 	for word in wordlists:
 		encoded_jwt = encode(jwt_data[1], word, 'HS256', jwt_data[0])
@@ -95,6 +96,7 @@ def brute_force():
 				print(Fore.CYAN, end = '')
 				print(word)
 				print(Style.RESET_ALL)
+				flag = False
 				break
 
 			else:
@@ -149,7 +151,7 @@ def menu():
 			display(decode(jwt_token))
 
 		elif(choice == 3):
-			wordlist_path = input('Enter the location of wordlist: ')
+			wordlist_path = input('Enter the location of wordlist (absolute/relative path): ')
 			f = open(wordlist_path, 'r')
 			keys = f.read()
 			f.close()
