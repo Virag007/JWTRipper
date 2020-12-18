@@ -15,16 +15,6 @@ A command line tool for encoding, decoding and brute-forcing JSON Web Token(JWT)
 
 <p align="center"><img alt="Demo" src="https://github.com/Virag007/JWTRipper/blob/main/media/demo.gif" /></p>
 
-## Platform Supported
-
-<img align="left" alt="Linux" width="64px" height="64px" src="https://github.com/Virag007/Performance-Enhancer/blob/main/media/linux.png" />
-<img align="left" alt="Linux" width="64px" height="64px" src="https://github.com/Virag007/Performance-Enhancer/blob/main/media/windows.png" />
-
-<br />
-<br />
-<br />
-<br />
-
 ## Installation
 
 **Step-01:** Clone the github repo and traverse to the mentioned folder.
@@ -64,6 +54,16 @@ optional arguments:
 It is a menu driven program in which you are given three menus and depending upon the requirement you may select either of them. First will encode a JWT Token for you, second will decode header and payload fields of JWT Token for you and last will brute-force the secret key of JWT Token. (Note: For brute-forcing you must provide a wordlist file.)
 
 
+<br />
+
+## Platform Supported
+
+<img align="left" alt="Linux" width="64px" height="64px" src="https://github.com/Virag007/Performance-Enhancer/blob/main/media/linux.png" />
+<img align="left" alt="Linux" width="64px" height="64px" src="https://github.com/Virag007/Performance-Enhancer/blob/main/media/windows.png" />
+
+<br />
+<br />
+<br />
 <br />
 
 ## Features
