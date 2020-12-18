@@ -9,7 +9,7 @@
 [![MIT license](https://img.shields.io/badge/Licence-MIT-ff3399)](https://github.com/Virag007/JWTRipper/blob/main/LICENSE)
 ![LinesOfCode](https://img.shields.io/badge/Lines%20%20of%20Code%20[LOC]-100%2B-%233390ff)
 
-A command line tool for encoding, decoding and brute-forcing JSON Web Token(JWT).
+A command line tool for encoding, decoding and brute-forcing JSON Web Token(JWT). Learn more about <a href="https://jwt.io/introduction/">JWT</a>
 
 ## Platform Supported
 
@@ -33,15 +33,41 @@ A command line tool for encoding, decoding and brute-forcing JSON Web Token(JWT)
 <br /><br />
 **Step-03:** View the usage
 <br />
-```python3 JWTRipper --help```
+```
+python3 JWTRipper --help
+
+usage: use "JWTRipper.py --help" for more information
+
+Title: JWTRipper - JWT Encoder, Decoder & Brute-forcer
+Author: Parag Thakur (aka Virag)
+Twitter Handle: @_virag007
+Description: A command line tool for encoding, decoding and brute-forcing JSON Web Token(JWT).
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DECODE, --decode DECODE
+                        Decode a JWT Token
+  --brute               Enable brute-force mode
+  -w WORDLIST, --wordlist WORDLIST
+                        Specify a wordlist for brute-forcing
+  --version             Shows the version information and exit
+
+```
 
 
 **Step-04:** ```python3 JWTRipper```
+It is a menu driven program in which you are given three menus and depending upon the requirement you may select either of them. First will encode a JWT Token for you, second will decode header and payload fields of JWT Token for you and last will brute-force the secret key of JWT Token. (Note: For brute-forcing you must provide a wordlist file.)
 
 
 <br />
 
 ## Features
+
+1. Encode the JWT Token
+2. Decode the JWT Token
+3. Brute-force the secret key
+4. Cross-platform support (Linux and Windows till)
+5. Algorithm tested (HS256)
 
 <br />
 
