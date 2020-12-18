@@ -84,10 +84,11 @@ def decode(token):
 def brute_force():
 	jwt_token = input('Enter the JWT Token: ')
 	jwt_data = decode(jwt_token)
+	algorithm = json.loads(jwt_data[0])['alg']
 	flag = False
-	
+
 	for word in wordlists:
-		encoded_jwt = encode(jwt_data[1], word, 'HS256', jwt_data[0])
+		encoded_jwt = encode(jwt_data[1], word, algorithm, jwt_data[0])
 		if(encoded_jwt != ''):
 			if(encoded_jwt == jwt_token):
 				print(Fore.RED)
